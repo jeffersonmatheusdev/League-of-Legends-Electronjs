@@ -13,12 +13,12 @@ Uma cópia da interface gráfica do launcher do jogo League of Legends, feito ut
 
 ## Janela do Launcher oficial
 
-![Foo](https://github.com/jeffersonmatheusdev/League-of-Legends-Electronjs/blob/main/prints/original.png?raw=true)
+![Foo](https://github.com/jeffersonmatheusdev/League-of-Legends-Electronjs/blob/main/prints/original.gif?raw=true)
 
 
 ## Janela do Launcher reconstruida
 
-![Foo](https://github.com/jeffersonmatheusdev/League-of-Legends-Electronjs/blob/main/prints/electronjs.png?raw=true)
+![Foo](https://github.com/jeffersonmatheusdev/League-of-Legends-Electronjs/blob/main/prints/electronjs.gif?raw=true)
 
 ## Visualizando o resultado
 
