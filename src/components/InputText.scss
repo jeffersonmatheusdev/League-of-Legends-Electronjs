@@ -1,0 +1,61 @@
+.userDiv {
+	position: absolute;
+  font-size: 12px;
+  text-align: center;
+  left: 2.5vw;
+  top: 29%;
+  width: 25%;
+  height: 6%;
+  border-radius: 5px;
+}
+
+.passDiv {
+	position: absolute;
+  font-size: 12px;
+  text-align: center;
+  left: 2.5vw;
+  top: 38%;
+  width: 25%;
+  height: 6%;
+  border-radius: 5px;
+}
+
+.userDiv .inputUser, .passDiv .inputPass {
+  position: absolute;
+  width: 100%;
+  height: 4vw;
+  left: 0%;
+  top: 50%;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+ 	box-shadow: none !important;
+  background-color: #f2f2f2;
+}
+
+input.inputUser:focus, input.inputPass:focus{
+  border: 2px solid black;
+}
+
+.userDiv .inputUser:focus, .passDiv .inputPass:focus {
+	border-width: medium medium 2px;
+}
+
+.userDiv .nameUser, .passDiv .namePass {
+  font-family: EkBold;
+	position: absolute;
+	pointer-events: none;
+	top: 18px;
+	left: 10px;
+	transition: 0.2s ease all;
+  color: gray;
+  margin-top: 14px;
+}
+
+.userDiv input:focus ~ .nameUser, .passDiv input:focus ~ .namePass,
+.passDiv input:not(:focus):valid ~ .namePass, .userDiv input:not(:focus):valid ~ .nameUser {
+	top: 5px;
+	left: 10px;
+	font-size: 10px;
+	opacity: 1;
+}

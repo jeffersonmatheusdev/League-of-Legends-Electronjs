@@ -1,0 +1,122 @@
+@font-face {
+  font-family: 'EkBold';
+  src: url('/font/EkMuktaBold.ttf');
+}
+
+@font-face {
+  font-family: 'EkLight';
+  src: url('/font/EkMuktaLight.ttf');
+}
+
+.Screen {
+  display: flex;
+  width: auto;
+  height: auto;
+}
+
+.Login {
+  display: flow-root;
+  width: 30%;
+  height: 100vh;
+  background-color: white;
+}
+
+.BackgroundImage {
+  display: flex;
+  width: 70%;
+  height: 100vh;
+}
+
+.imageBK {
+  flex: 1;
+  width: 100vh;
+  height: 100%;
+}
+
+.question {
+  position: absolute;
+  height: 16px;
+  left: 24.9vw;
+  top: 6%;
+}
+
+.logo {
+  position: absolute;
+  top: 10%;
+  left: 13.5vw;
+  height: 34px;
+}
+
+.h1Title {
+  position: absolute;
+  font-size: 25px;
+  left: 9vw;
+  top: 20%;
+}
+
+
+.authOptions {
+  display: flex;
+  height: 5%;
+  top: 50%;
+  left: 4%;
+  position: relative;
+}
+
+.fbIco {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background-color: #1877f2;
+  border: 1px solid #1771e7;
+  border-radius: 4px;
+}
+
+.fbIco:hover {
+  background-color: #0966de;
+}
+
+.googleIco {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 30.095%;
+  border: 1px solid #ebebeb;
+  border-radius: 4px;
+}
+
+.appleIco {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background-color: #000000;
+  width: 30.095%;
+  border: 1px solid #141414;
+  border-radius: 4px;
+}
+
+.ico {
+  position: relative;
+  width: 17%;
+  height: 50%;
+}
+
+.arrow {
+  position: absolute;
+  top: 70%;
+  left: 12%;
+}
+
+.sessao {
+  color: #b2b2b2;
+  font-size: 12px;
+  position: absolute;
+  font-family: EkBold;
+  top: 85%;
+  left: 7.5vw;
+}
+
+.sessao:hover {
+  color: #000000;
+}

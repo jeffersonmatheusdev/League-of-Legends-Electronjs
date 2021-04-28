@@ -1,0 +1,14 @@
+.groupOptions {
+    position: absolute;
+    width: 10%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.minimizeMenu, .questionMenu, .closeMenu {
+  width: 100%;
+  height: 1%;
+  display: flex;
+  justify-content: center;
+}
